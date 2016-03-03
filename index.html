@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hammerin' Hank's Fruit Market</title>
+    <link rel="shortcut icon" href="KappacatBlue.png">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+  <div class="message">
+    <p class="alert-message"></p>
+
+    <input type="button" class="btn btn-primary start-over-button" value="Start Over">
+  </div>
+  <div class="main">
+    <a class="prime" href="http://primeacademy.io" alt="Prime Academy link" target="_blank"><img  src="images/prime-logo.png" alt="Prime Academy Logo"></a>
+      <div class="top">
+          <!-- <header class="container text-center">
+
+          </header> -->
+          <div class="container banner text-center">
+
+            <h1>
+                Hammerin' Hank's<br /> Fruit Market!
+
+            </h1>
+            <p class="intro">
+              In this fast paced and exciting game the objective is to gain the most
+              money you can! For five minutes, you will be able to buy and sell fruits
+              at market value, and sell them to cash out on your inventory. Displayed below
+              is the average price that you paid for that particular fruit, and the amount you
+              currently have. Watch out though, market values are subject to change!
+            </p>
+
+          </div>
+
+
+      </div>
+      <div class="row">
+        <div class="text-center start-btn">
+
+          <button class="btn start btn-primary"> Start The Game! </button>
+          <h2>Your Bank: $ <span class="bank">100.00</span></h2>
+
+        </div>
+        <div class="row">
+          <div class="text-center">
+            <h3 class="timer">Timer Will Start When Game Begins</h3>
+          </div>
+        </div>
+        <div class="col-md-2"> </div>
+          <div class="well col-md-2 apple-container  text-center">
+              <img class="kappa-cat" src="images/KappacatBLUE.png" alt="Kappa Cat">
+              <button class="btn apple-buy " data-className='apple'>Buy an Apple</button>
+              <p>Price: $<span class="apple-price">0.00</span></p>
+              <button class="btn apple-sell btn-success" data-className='apple'>Sell an Apple</button>
+              <p>Inventory: <span class="apple-inventory">0</span></p>
+              <p>Average Expense: <span class="apple-expense">0</span></p>
+          </div>
+
+          <div class=" well col-md-2 orange-container text-center">
+              <img class="kappa-cat" src="images/KappacatBLUE.png" alt="Kappa Cat">
+              <button class="btn orange-buy" data-className='orange'>Buy an Orange</button>
+              <p>Price: $<span class="orange-price">0.00</span></p>
+              <button class="btn orange-sell btn-success" data-className='orange'>Sell an Orange</button>
+              <p>Inventory: <span class="orange-inventory">0</span></p>
+              <p>Average Expense: <span class="orange-expense">0</span></p>
+          </div>
+          <div class=" well col-md-2 banana-container text-center">
+              <img class="kappa-cat" src="images/KappacatBLUE.png" alt="Kappa Cat">
+              <button class="btn banana-buy" data-className='banana'>Buy a Banana</button>
+              <p>Price: $<span class="banana-price">0.00</span></p>
+              <button class="btn banana-sell btn-success" data-className='banana' >Sell a Banana</button>
+              <p>Inventory: <span class="banana-inventory">0</span></p>
+              <p>Average Expense: <span class="banana-expense">0</span></p>
+          </div>
+
+          <div class=" well col-md-2 pear-container text-center">
+              <img class="kappa-cat" src="images/KappacatBLUE.png" alt="Kappa Cat">
+              <button class="btn pear-buy" data-className='pear'>Buy a Pear</button>
+              <p>Price: $<span class="pear-price">0.00</span></p>
+              <button class="btn pear-sell btn-success" data-className='pear' >Sell a Pear</button>
+              <p>Inventory: <span class="pear-inventory">0</span></p>
+              <p>Average Expense: <span class="pear-expense">0</span></p>
+          </div>
+          <div class="col-md-2"></div>
+
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="text-center credits">
+        <ul>
+          <li class="col-md-2"></li>
+          <li class="col-md-2 text-center" id="evan"><a href="https://www.linkedin.com/in/evankimlinger" target="_blank">Evan</a></li>
+          <li class="col-md-2 text-center" id="roman"><a href="https://www.linkedin.com/in/roman-hiebert-ab2b77115" target="_blank">Roman</a></li>
+          <li class="col-md-2 text-center" id="mark"><a href="https://www.linkedin.com/in/mark-rothermal-a43a2b4a" target="_blank">Mark</a></li>
+          <li class="col-md-2 text-center" id="hank"><a href="https://www.linkedin.com/in/hankandre" target="_blank">Hank</a></li>
+        </ul>
+      </div>
+    </div> -->
+    <footer>
+      <h4 class="credits">Brought to you by the following developers:</h4>
+      <ul class="dev-names">
+        <li class="col-md-2 col-md-offset-2 text-center" id="evan">Evan</li>
+        <li class="col-md-2 text-center" id="roman">Roman</li>
+        <li class="col-md-2 text-center" id="mark">Mark</li>
+        <li class="col-md-2 text-center" id="hank">Hank</li>
+      </ul>
+      <ul class="dev-linkedin">
+        <li class="col-md-2 col-md-offset-2 text-center" id="evan"><a href="https://www.linkedin.com/in/evankimlinger" target="_blank"><img class="linkedIn" src="images/linkedin.png" alt="LinkedIn icon"></a></li>
+        <li class="col-md-2 text-center" id="roman"><a href="https://www.linkedin.com/in/roman-hiebert-ab2b77115" target="_blank"><img class="linkedIn" src="images/linkedin.png" alt="LinkedIn icon"></a></li>
+        <li class="col-md-2 text-center" id="mark"><a href="https://www.linkedin.com/in/mark-rothermal-a43a2b4a" target="_blank"><img class="linkedIn" src="images/linkedin.png" alt="LinkedIn icon"></a></li>
+        <li class="col-md-2 text-center" id="hank"><a href="https://www.linkedin.com/in/hankandre" target="_blank"><img class="linkedIn" src="images/linkedin.png" alt="LinkedIn icon"></a></li>
+      </ul>
+
+    </footer>
+</body>
+</html>

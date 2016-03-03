@@ -1,0 +1,252 @@
+.prime {
+  display: inline-block;
+  position: absolute;
+  left: 75px;
+  top: 75px;
+}
+
+.prime img {
+  height: 100px;
+  width: auto;
+}
+
+.top {
+    /*4377b1*/
+    background-image: url('images/fruitstand.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%, center;
+    height: 500px;
+    margin-bottom: 25px;
+}
+
+/*.kappa-cat {
+  border: none;
+  background: rgba(0,0,0,0);
+}
+
+.kappa-cat img {
+  position: relative;
+  left: -20%;
+  /*right: -20%;*/
+  /*transform: translateX(-100%);*/
+
+
+.banner {
+  position: relative;
+  top: 65%;
+  transform: translateY(-50%);
+    /*background-image: url('fruitstand.jpg');*/
+    /*background-repeat: no-repeat;*/
+    /*border: solid;*/
+}
+
+.intro {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px black;
+}
+
+h1 {
+
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px black;
+    /*background: #B24900;*/
+    /*margin: 10px 0 -15px 0;*/
+    /*padding: 25px;*/
+    /*border-radius:5px;*/
+    /*border: 2px solid black;*/
+}
+
+
+.right{
+    margin-right: 5px;
+    height: 50px;
+    float: left;
+}
+
+.btn-primary {
+  color: black;
+  background-color: rgb(120, 198, 195);
+  border-color: rgb(88, 181, 177);
+  background-image: -webkit-linear-gradient(top, #2DF7E5, #4377b1);
+  background-image: -moz-linear-gradient(top, #2DF7E5, #4377b1);
+  background-image: -ms-linear-gradient(top, #2DF7E5, #4377b1);
+  background-image: -o-linear-gradient(top, #2DF7E5, #4377b1);
+  background-image: linear-gradient(to bottom, #2DF7E5, #4377b1);
+}
+
+p {
+    font-weight: bold;
+    font-size: inherit;
+    color: #ffffff;
+    /*background: aliceblue;*/
+}
+
+.start-btn {
+
+}
+.inner{
+    margin: 0 2.5%;
+    padding: 0 2.5%;
+}
+
+.apple-container, .orange-container, .banana-container, .pear-container {
+  text-align: center;
+}
+
+.apple-container{
+  background-color: rgb(226, 90, 90);
+
+}
+
+.orange-container{
+    background-color: rgb(246, 158, 78);
+
+}
+
+.banana-container{
+    background-color: rgb(236, 208, 90);
+
+}
+.pear-container {
+    background-color: rgb(199, 217, 93);
+}
+
+.apple-container p:first-of-type, .pear-container  p:first-of-type, .orange-container p:first-of-type, .banana-container p:first-of-type {
+  display: block;
+  position: relative;
+  top: 10px;
+}
+
+.apple-container img:first-of-type, .pear-container  img:first-of-type, .orange-container img:first-of-type, .banana-container img:first-of-type {
+  display: block;
+  height: 100px;
+  margin: auto;
+
+}
+
+.apple-buy, .pear-buy, .banana-buy, .orange-buy {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /*background-size: cover;*/
+  height: 150px;
+  width: 150px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.apple-buy, .banana-buy, .orange-buy, .pear-buy {
+  margin: auto;
+
+}
+
+.apple-buy p, .banana-buy p, .orange-buy p, .pear-buy p {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #2a2a2a;
+}
+
+.apple-buy {
+  background-color: rgba(190, 49, 49, 0.91);
+  border: 1px rgba(152, 14, 14, 0.91) solid;
+  background-image: url('images/apple.png');
+}
+
+.banana-buy{
+  background-color: rgba(200, 167, 26, 0.9);
+  border: 1px rgba(154, 125, 0, 0.9) solid;
+  background-image: url('images/bananas.png');
+ }
+
+.orange-buy{
+  background-color: rgba(209, 118, 36, 0.9);
+  border: 1px rgba(179, 86, 4, 0.9) solid;
+  background-image: url('images/orange.png') ;
+}
+.pear-buy{
+  background-color: rgba(166, 189, 35, 0.9);
+  border: 1px rgba(119, 140, 0, 0.9) solid;
+  background-image: url('images/pear.png');
+}
+
+
+
+.apple-sell, .pear-sell, .banana-sell, .orange-sell{
+    margin: 10px 10px;
+}
+
+/* Roman added some styling below */
+.blur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+
+}
+.message {
+top: 50%;
+position: fixed;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+text-align:center;
+display: none;
+}
+.message p {
+  font-size: 2em;
+	font-weight: bold;
+  padding: 10px;
+  background: #CAEFF5;
+  border: 2px solid #0087BF;
+  border-radius: 5px;
+	color: #008CB9;
+	line-height: 1.25em;
+}
+
+.credits, .dev-names li {
+  text-align: center;
+}
+
+.dev-names h4 {
+  margin: 25px 25px;
+  padding: 0;
+}
+
+.dev-names  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dev-names li {
+  display: inline;
+  /*margin-right: 10px;*/
+}
+
+.dev-names a:hover {
+  text-decoration: none;
+  position: relative;
+  top: -2px;
+}
+
+footer {
+  background-color: rgb(231, 226, 226);
+  height: 300px;
+  padding-top: 25px;
+}
+
+.dev-linkedin {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.dev-linkedin img {
+  height: 15px;
+  width: auto;
+}
